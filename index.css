@@ -1,168 +1,119 @@
 body {
-    margin: 0px;
-    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
-    color: white;
+    display: contents;
+    font-family: arial, sans-serif;
   }
   
-  a {
-    color: white;
+  .navbar {
+    float: right;
+    margin: 20px;
+  }
+  
+  .nav-item {
     text-decoration: none;
+    color: black;
+    margin-right: 15px;
   }
   
-  a:hover {
-    color: #1ed760;
+  .nav-item:hover {
+    text-decoration: underline;
   }
   
-  nav {
-    height: 80px;
-    background-color: black;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  main {
-    height: 969px;
-    background-color: rgb(41, 65, 171);
-    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
-    background-size: 179%;
-    background-position: 46% 4%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-  }
-  
-  .nav-item{
-    padding: 28px 17px;
-    font-weight: 700;
-  }
-  
-  .headline {
-    font-size: 156px;
-    font-weight: 900;
-    color: #1ed760;
-    position: relative;
-    left: 220px;
-    padding-bottom: 40px;
-  }
-  
-  .headline-first {
-    position: relative;
-    left: -2.5em;
-  }
-  
-  .sub-headline {
-    color: #1ed760;
+  .main {
+    margin-top: 250px;
     text-align: center;
-    font-size: 18px;
-    padding-bottom: 40px;
-    text-align: center;
+  }
+  
+  .input-area {
+    margin-top: 20px;
+  }
+  
+  .input-box {
+    width: 584px;
+    height: 46px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  .search-icon {
+    position: relative;
+    left: 40px;
+    color: #9aa0a6;
+  }
+  
+  .mic-icon {
+    position: relative;
+    right: 40px;
+    color: #9aa0a6;
   }
   
   .button-area {
-    text-align: center;
+    padding-top: 18px;
   }
   
   .button-style {
-    padding: 14px 32px;
-    background-color: #1ed760;
-    border-radius: 500px;
-    font-size: inherit;
-    color: #2941ab;
-    font-weight: 700;
-    border: none;
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    padding: 0 16px;
+    margin: 11px 4px;
   }
   
   .button-style:hover {
-    transform: scale(1.07); /* 버튼커짐*/
-    background-color: #2de26d;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
   }
   
-  footer {
-    height: 530px;
-    background-color: black;
-    display: flex;
-    justify-content: center;
+  .language-area {
+    margin-top: 18px;
   }
-
-  .container {
-    max-width: 1170px;
+  
+  .language {
+    text-decoration: none;
+    padding: 0 3px;
+    color: #1a0dab;
+  }
+  
+  .language:hover {
+    text-decoration: underline;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0px;
+    background: #f2f2f2;
     width: 100%;
-    padding-top: 80px;
-    padding-bottom: 50px;
   }
-
-  .footer-menu {
-    display: flex;
-    justify-content: space-between;
-    height: 346px;
-  }
-
-  .first-box {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .second-box {
-    width: 40%;
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  .footer-menu-item {
-    padding-bottom: 15px;
-    padding-top: 3px;
-    font-size: 16px;
-  }
-
-  .column {
-    display: flex;
-    flex-direction: column;
-    padding: 0 15px;
-  }
-
-  .sub-title {
-    color: #919496;
-    font-weight: 900;
-    margin: 20px 0px;
-  }
-
-  .icon-box {
-    width: 54px;
-    height: 54px;
-    background-color: #222322;
-    border-radius: 50%;
-    margin-right: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .icon {
-    font-size: 24px;
-  }
-
-  .icon:hover {
-    color: #2de26d;
-  }
-
+  
   .first-line {
-    color: #919496;
-    display: flex;
-    justify-content: flex-end;
-    font-size: 12px;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.54);
   }
-
+  
   .second-line {
-    color: #919496;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 12px;
+    padding: 15px 30px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.54);
   }
-
-  .second-line-item {
-    margin-right: 24px;
-    color: #919496;
+  
+  .second-line-second {
+    float: right;
+  }
+  
+  .second-line a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.54);
+    padding-right: 15px;
+  }
+  
+  .second-line a:hover {
+    text-decoration: underline;
   }
