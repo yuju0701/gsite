@@ -1,6 +1,6 @@
 .main {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
   }
 
   .box {
@@ -10,10 +10,16 @@
     color: white;
   }
 
-  .box-center {
-    align-self: center;
+  .box-big {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    position: relative;
   }
   
-  .box-end {
-    align-self: flex-end;
+  .box-position {
+    position: absolute;
+    left: 50px;
+    top: 50px;
   }
